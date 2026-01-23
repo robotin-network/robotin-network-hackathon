@@ -23,6 +23,7 @@ This document describes the system architecture and module boundaries.
   - Action sequences
   - Task metadata
 
+---
 
 ### 2. Task Orchestration Service
 - Central service that manages task lifecycle
@@ -31,6 +32,7 @@ This document describes the system architecture and module boundaries.
   - Assign tasks to eligible collector nodes
   - Track task status (created / accepted / completed)
 
+---
 
 ### 3. Data Ingestion Layer
 - Handles data uploads from collector nodes
@@ -39,6 +41,7 @@ This document describes the system architecture and module boundaries.
   - Generate hashes and metadata
   - Store data in off-chain storage
 
+---
 
 ### 4. Data Validation & Quality Scoring
 - Ensures data usability and basic integrity
@@ -48,6 +51,7 @@ This document describes the system architecture and module boundaries.
 - Note:
   - Advanced ML-based validation is planned for future phases
 
+---
 
 ### 5. Incentive & Reward Logic
 - Calculates rewards based on:
@@ -56,6 +60,7 @@ This document describes the system architecture and module boundaries.
 - Outputs reward events that can be settled on-chain
 - Hackathon version focuses on off-chain calculation and simulation
 
+---
 
 ### 6. Storage Layer
 - Off-chain storage:
@@ -65,6 +70,7 @@ This document describes the system architecture and module boundaries.
   - Data hashes
   - Reward settlement records
 
+---
 
 ## Planned Tech Stack
 
@@ -73,6 +79,7 @@ This document describes the system architecture and module boundaries.
 - Storage: Cloud Object Storage / IPFS (planned)
 - Blockchain: Solana or EVM-compatible chain (planned)
 
+---
 
 ## Hackathon Scope
 
