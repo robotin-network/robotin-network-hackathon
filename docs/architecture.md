@@ -8,6 +8,7 @@ training data for embodied AI models.
 
 This document describes the system architecture and module boundaries.
 
+---
 
 ## Core Components
 
