@@ -9,6 +9,7 @@ validates collected data, and calculates incentives based on data quality.
 This repository contains the initial system design and hackathon implementation
 for the Robotin Network data pipeline.
 
+---
 
 ## Problem
 
@@ -22,6 +23,7 @@ interaction data. However, existing data collection pipelines are:
 Robotin Network addresses this by introducing a decentralized, task-based
 data collection and validation framework.
 
+---
 
 ## Solution Overview
 
@@ -35,6 +37,7 @@ Robotin Network provides:
 The architecture is designed to support future on-chain settlement and
 large-scale device deployment.
 
+---
 
 ## System Architecture
 
@@ -46,6 +49,7 @@ End-to-end data flow for a single task is described here:
 
 - [`/docs/data-flow.md`](./docs/data-flow.md)
 
+---
 
 ## Hackathon Scope
 
@@ -64,6 +68,7 @@ Out of scope for the hackathon:
 - On-chain reward settlement
 - Large-scale model training
 
+---
 
 ## Planned Tech Stack
 
@@ -72,18 +77,22 @@ Out of scope for the hackathon:
 - Blockchain: Solana or EVM-compatible chain (planned)
 - Client: Mobile App / Embedded Device (simulated during hackathon)
 
+---
 
 ## Repository Structure
 
+```text
 .
 ├── README.md
 ├── docs/
-│ ├── architecture.md
-│ └── data-flow.md
-├── backend/ # Planned
-├── contracts/ # Planned
-└── frontend/ # Planned
+│   ├── architecture.md
+│   └── data-flow.md
+├── backend/        # Planned
+├── contracts/      # Planned
+└── frontend/       # Planned
+```
 
+---
 
 ## Development Status
 
@@ -92,11 +101,13 @@ Out of scope for the hackathon:
 - Hackathon implementation: In progress
 - Active development will take place during the hackathon
 
+---
 
 ## Team
 
 Robotin Network is built by a team focused on embodied intelligence, robotics, and decentralized data networks.
 
+---
 
 ## License
 
