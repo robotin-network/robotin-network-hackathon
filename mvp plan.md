@@ -56,3 +56,93 @@
 - 前后端接口联调
 - Demo 走查与完善
 - MVP 演示准备
+
+# MVP Plan
+
+## MVP Goal
+
+While prioritizing mobile devices, complete the minimum demonstrable closed loop of "Task -> Data Collection -> Upload -> Review -> Points/Reward Display".
+
+## MVP Components
+
+### App (Data Collector)
+1. Account & Login
+
+- Registration/Login
+2. Tasks
+
+- Task List (Basic Filtering)
+
+- Task Details (Requirements, Rewards, Instructions)
+
+- Accept Task
+3. Data Collection & Submission
+
+- Taking Photos/Selecting Images
+
+- Filling in Basic Information (Scene, Description, Time, Environment, etc.)
+
+- Submitting and Uploading
+4. Records & Status
+
+- Upload Records/Task Status
+
+- Task Results/Review Results
+5. Points/Assets
+
+- Current Points
+
+- Historical Reward Records
+
+### Backend (Review/Management)
+1. Task Management
+
+- Create Task
+
+- Task Status Management (In Progress/Completed)
+2. Data Review
+
+- Task Submission List
+
+- Approved/Rejected
+3. Reward Calculation
+
+- Basic Rule Calculation
+
+- Distribution Records
+
+## MVP Task Breakdown and Planning
+
+### Phase 1: Requirements & Prototype (Week 1)
+
+- Define task fields and basic data structure
+
+- Design mobile core workflow prototype (Task -> Data Collection -> Upload -> Result)
+
+### Phase 2: Basic App Functionality (Weeks 2-3)
+
+- Login/Registration Page
+
+- Task List/Details/Acceptance
+
+- Take Photo/Select Image + Basic Information Filling
+
+- Upload Records and Status Page
+
+- Points Display Page
+
+### Phase 3: Minimum Backend Loop (Weeks 3-4)
+
+- Task Creation and Management
+
+- Data Review (Approval/Rejection)
+
+- Reward Calculation and Distribution Records
+
+### Phase 4: Integration and Demonstration (Week 4)
+
+- Front-end and Back-end Interface Integration
+
+- Demo Review and Improvement
+
+- MVP Demonstration Preparation
